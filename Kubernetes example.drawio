@@ -38,10 +38,10 @@
           <mxGeometry height="160" width="280" x="850" y="340" as="geometry" />
         </mxCell>
         <mxCell id="GF-FxZrnOdZnFBTi_sZW-11" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=1.9685;verticalAlign=top;" value="Node 2" vertex="1">
-          <mxGeometry height="120" width="510" x="320" y="540" as="geometry" />
+          <mxGeometry height="110" width="510" x="320" y="550" as="geometry" />
         </mxCell>
         <mxCell id="GF-FxZrnOdZnFBTi_sZW-12" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;verticalAlign=top;strokeWidth=1.9685;" value="Node 1" vertex="1">
-          <mxGeometry height="140" width="510" x="320" y="340" as="geometry" />
+          <mxGeometry height="150" width="510" x="320" y="340" as="geometry" />
         </mxCell>
         <mxCell id="GF-FxZrnOdZnFBTi_sZW-17" edge="1" parent="1" source="GF-FxZrnOdZnFBTi_sZW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GF-FxZrnOdZnFBTi_sZW-5">
           <mxGeometry relative="1" as="geometry" />
@@ -73,7 +73,7 @@
           <mxGeometry height="40" width="160" x="10" y="40" as="geometry" />
         </mxCell>
         <mxCell id="GF-FxZrnOdZnFBTi_sZW-27" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="70" width="210" x="480" y="570" as="geometry" />
+          <mxGeometry height="70" width="210" x="480" y="580" as="geometry" />
         </mxCell>
         <mxCell id="GF-FxZrnOdZnFBTi_sZW-23" parent="GF-FxZrnOdZnFBTi_sZW-27" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Database pod" vertex="1">
           <mxGeometry height="70" width="210" as="geometry" />
@@ -85,26 +85,21 @@
           <mxGeometry height="80" width="120" x="820" y="720" as="geometry" />
         </mxCell>
         <mxCell id="GF-FxZrnOdZnFBTi_sZW-29" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Volume" vertex="1">
-          <mxGeometry height="40" width="120" x="865" y="600" as="geometry" />
+          <mxGeometry height="40" width="120" x="865" y="595" as="geometry" />
         </mxCell>
-        <mxCell id="GF-FxZrnOdZnFBTi_sZW-35" edge="1" parent="1" source="GF-FxZrnOdZnFBTi_sZW-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="Oaj_eN62lfnk155IEGTs-1">
+        <mxCell id="GF-FxZrnOdZnFBTi_sZW-35" edge="1" parent="1" source="GF-FxZrnOdZnFBTi_sZW-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="Oaj_eN62lfnk155IEGTs-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GF-FxZrnOdZnFBTi_sZW-39" connectable="0" parent="GF-FxZrnOdZnFBTi_sZW-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="/weather" vertex="1">
-          <mxGeometry relative="1" x="-0.3538" y="-2" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GF-FxZrnOdZnFBTi_sZW-36" edge="1" parent="1" source="GF-FxZrnOdZnFBTi_sZW-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="GF-FxZrnOdZnFBTi_sZW-10">
+        <mxCell id="GF-FxZrnOdZnFBTi_sZW-36" edge="1" parent="1" source="GF-FxZrnOdZnFBTi_sZW-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GF-FxZrnOdZnFBTi_sZW-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GF-FxZrnOdZnFBTi_sZW-40" connectable="0" parent="GF-FxZrnOdZnFBTi_sZW-36" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="/traffic" vertex="1">
           <mxGeometry relative="1" x="-0.0111" y="-4" as="geometry">
-            <mxPoint x="1" as="offset" />
+            <mxPoint x="-14" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GF-FxZrnOdZnFBTi_sZW-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Frontend service (LoadBalancer)" vertex="1">
-          <mxGeometry height="60" width="160" x="780" y="230" as="geometry" />
+        <mxCell id="GF-FxZrnOdZnFBTi_sZW-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Ingress" vertex="1">
+          <mxGeometry height="60" width="160" x="780" y="222.5" as="geometry" />
         </mxCell>
         <mxCell id="GF-FxZrnOdZnFBTi_sZW-41" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="100" width="180" x="900" y="380" as="geometry" />
@@ -138,20 +133,40 @@
             <mxPoint x="670" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GF-FxZrnOdZnFBTi_sZW-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Backend Service" vertex="1">
+        <mxCell id="GF-FxZrnOdZnFBTi_sZW-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Backend Service" vertex="1">
           <mxGeometry height="30" width="120" x="610" y="290" as="geometry" />
         </mxCell>
         <mxCell id="GF-FxZrnOdZnFBTi_sZW-51" edge="1" parent="1" source="Oaj_eN62lfnk155IEGTs-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GF-FxZrnOdZnFBTi_sZW-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GF-FxZrnOdZnFBTi_sZW-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Database Service" vertex="1">
-          <mxGeometry height="30" width="120" x="610" y="500" as="geometry" />
+        <mxCell id="GF-FxZrnOdZnFBTi_sZW-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Database Service" vertex="1">
+          <mxGeometry height="30" width="120" x="610" y="510" as="geometry" />
         </mxCell>
         <mxCell id="GF-FxZrnOdZnFBTi_sZW-54" edge="1" parent="1" source="GF-FxZrnOdZnFBTi_sZW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="GF-FxZrnOdZnFBTi_sZW-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GF-FxZrnOdZnFBTi_sZW-55" edge="1" parent="1" source="GF-FxZrnOdZnFBTi_sZW-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.795;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" target="GF-FxZrnOdZnFBTi_sZW-23">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GF-FxZrnOdZnFBTi_sZW-58" edge="1" parent="1" source="GF-FxZrnOdZnFBTi_sZW-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="GF-FxZrnOdZnFBTi_sZW-57" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="260" as="sourcePoint" />
+            <mxPoint x="470" y="374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GF-FxZrnOdZnFBTi_sZW-59" connectable="0" parent="GF-FxZrnOdZnFBTi_sZW-58" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="/weather" vertex="1">
+          <mxGeometry relative="1" x="-0.3538" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GF-FxZrnOdZnFBTi_sZW-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Weather Frontend Service" vertex="1">
+          <mxGeometry height="45" width="120" x="490" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="GF-FxZrnOdZnFBTi_sZW-61" edge="1" parent="1" source="GF-FxZrnOdZnFBTi_sZW-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="GF-FxZrnOdZnFBTi_sZW-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GF-FxZrnOdZnFBTi_sZW-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Traffic Frontend Service" vertex="1">
+          <mxGeometry height="45" width="120" x="980" y="245" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
